@@ -16,8 +16,6 @@ It includes training, evaluation, and a reproducible inference pipeline to demon
 - **Split:** 80% train | 10% val | 10% test  
 - **Preprocessing:** Resize to model input size, normalize using ImageNet stats, and apply augmentation (random flips, rotations, zoom, brightness).
 
-> **Note:** Place your dataset in `data/` with subfolders per class (or update paths in the scripts).
-
 ---
 
 ## Models & Key Results
@@ -34,7 +32,7 @@ It includes training, evaluation, and a reproducible inference pipeline to demon
 - TensorFlow / Keras and PyTorch (experimentation)  
 - NumPy, Pandas, Matplotlib  
 - Image preprocessing & augmentation libraries (e.g., `torchvision` or `albumentations`)  
-- Training utilities: Adam optimizers, mixed precision training
+- Training utilities: Adam / AdamW optimizers, Cosine Annealing LR, mixed precision training
 
 ---
 
@@ -45,4 +43,18 @@ It includes training, evaluation, and a reproducible inference pipeline to demon
 - Comparative analysis of efficiency vs. accuracy to guide deployment decisions.
 
 ---
+
+## Future Scope
+- Deployment as a **web-based or mobile application** for real-world usage.  
+- User login and personalized dashboards.  
+- Integration with **AR-based virtual try-on** features for awareness and recycling campaigns.  
+
+---
+
+## Contact
+If you have any questions, suggestions, or would like to collaborate, feel free to reach out.  
+
+**Name:** Sineha Manjary R.  
+**Email:** sinehamanjary@gmail.com  
+**LinkedIn:** [Sineha Manjary](https://www.linkedin.com/in/sineha-manjary/)  
 
